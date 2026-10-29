@@ -1,14 +1,14 @@
 {
   "variant": "prot2",
-  "sourceRevision": "7ab23e6212c7853b85ed48c06443957176573e24",
+  "sourceRevision": "2aa7610362d5752cfcf349e5a5451f44746e97d2",
   "unityVersion": "6000.3.27f1",
-  "builtAt": "2026-10-29T17:28:21.503Z",
+  "builtAt": "2026-10-29T18:00:31.928Z",
   "files": {
-    "Build/34b892e3c373151d00efa0d17969666a.framework.js.unityweb": "bbd1c94b786b8548700371f8dbd3942247ce880e67aff83c02f874704a333b61",
-    "Build/476f1508138e93b78d024cab6e7dbeca.data.unityweb": "127320a1ab59f5ed6b580659af259d547a658eb486189e752b91984a2e86e3ac",
-    "Build/89a9e2bce4d9d14ff3bb8c6f3f9bee23.wasm.unityweb": "1cb6144105e243c7a64c0dc7444de1767242e6d0cbf7852184d33b313c38af26",
-    "Build/ef033d9a7929c2c9a6cd4e75aef06d6f.loader.js": "bf4b442877b4c744a46cb9d1fdba82572f7afe246ef19d610c012a81319eb4e3",
-    "index.html": "d00f24e94c1f33f0a62d0ce4b9e8584fa73d3c96b8e653563b53c77a3e1e0e6e",
+    "Build/34b892e3c373151d00efa0d17969666a.framework.js.unityweb": "a1b9f68b6113fcaa77dadfe58c1c4898fd19c3d59897038099d2ac1b407c8ebc",
+    "Build/83badd870471246bdc89a807ff1203f2.wasm.unityweb": "d5104caf2eb69861e5eb88e17d0e8b4b51d4695658a8a33dd314d0e6550f7827",
+    "Build/ad8da3820dc4dbfd82645b9812f861f9.loader.js": "35fe250eddf3213faaa007fecbc6e6f8177a4aace47a801ca3998d2034e8f61e",
+    "Build/cdafc57f6375000c7cb25151b5e55c9c.data.unityweb": "0c434a45ce5b0d0640c8ed0581b7d7720a0a14e551134964569b8c0b11ce2725",
+    "index.html": "2ea4a6d62871afce95a2488d4f152a5a746bc0facdd39abfc05eaab34226deaf",
     "ThirdPartyNotices.txt": "17d4b8d96d8eca90a097cc1344394313f1253267b5811fb69bed52548857f90f"
   }
 }

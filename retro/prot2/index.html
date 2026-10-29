@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Retro prot2 — 町そのものが交換台</title>
+  <title>こちら、電話交換局 — 3つの当直</title>
   <style>
     * { box-sizing: border-box; }
     html, body { width:100%; height:100%; margin:0; overflow:hidden; background:#182628; }
@@ -52,9 +52,9 @@
       console.error(message);
     };
     const config = {
-      dataUrl: 'Build/476f1508138e93b78d024cab6e7dbeca.data.unityweb',
+      dataUrl: 'Build/cdafc57f6375000c7cb25151b5e55c9c.data.unityweb',
       frameworkUrl: 'Build/34b892e3c373151d00efa0d17969666a.framework.js.unityweb',
-      codeUrl: 'Build/89a9e2bce4d9d14ff3bb8c6f3f9bee23.wasm.unityweb',
+      codeUrl: 'Build/83badd870471246bdc89a807ff1203f2.wasm.unityweb',
       streamingAssetsUrl: 'StreamingAssets',
       companyName: 'sny0',
       productName: 'Retro',
@@ -67,7 +67,7 @@
       }
     };
     const script = document.createElement('script');
-    script.src = 'Build/ef033d9a7929c2c9a6cd4e75aef06d6f.loader.js';
+    script.src = 'Build/ad8da3820dc4dbfd82645b9812f861f9.loader.js';
     script.onerror = () => reportError('ゲームのファイルを読み込めませんでした。');
     script.onload = () => createUnityInstance(canvas, config, progress => {
       document.querySelector('#progress').style.width = `${progress * 100}%`;
