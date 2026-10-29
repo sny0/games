@@ -52,9 +52,9 @@
       console.error(message);
     };
     const config = {
-      dataUrl: 'Build/d8d5cdedddcb2a99506a3b761a7a9e9b.data.unityweb',
-      frameworkUrl: 'Build/55895d652f115d8f19b67817206db5d8.framework.js.unityweb',
-      codeUrl: 'Build/96a7262c230438c43209fcf35d119bce.wasm.unityweb',
+      dataUrl: 'Build/42a24458c9c663b6325a714a36731661.data.unityweb',
+      frameworkUrl: 'Build/3551b9be828a3fd9c4911bb3cf50e111.framework.js.unityweb',
+      codeUrl: 'Build/daa7912ddb0753bb6cea165df77a238c.wasm.unityweb',
       streamingAssetsUrl: 'StreamingAssets',
       companyName: 'sny0',
       productName: 'Retro',
@@ -67,7 +67,7 @@
       }
     };
     const script = document.createElement('script');
-    script.src = 'Build/f574899033fa3d05b64d24e22ef35385.loader.js';
+    script.src = 'Build/de9e5b65dbdf536f1f2afd7ff97c0859.loader.js';
     script.onerror = () => reportError('ゲームのファイルを読み込めませんでした。');
     script.onload = () => createUnityInstance(canvas, config, progress => {
       document.querySelector('#progress').style.width = `${progress * 100}%`;
