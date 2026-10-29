@@ -1,0 +1,2 @@
+# Serve generated files verbatim, without Git LFS pointers.
+* -text -filter
