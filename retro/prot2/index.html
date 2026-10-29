@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Retro prot2 — 町そのものが交換台</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { width:100%; height:100%; margin:0; overflow:hidden; background:#182628; }
+    body { display:grid; place-items:center; font-family:system-ui,sans-serif; }
+    #player { position:relative; width:min(100vw,calc(100dvh * 16 / 9)); aspect-ratio:16/9; }
+    #unity-canvas { display:block; width:100%; height:100%; outline:none; touch-action:none; }
+    #loading { position:absolute; inset:0; display:grid; place-content:center; gap:16px;
+      padding:28px; text-align:center; color:#f6eed9; background:#182628; }
+    #track { height:5px; width:min(360px,70vw); background:#354543; }
+    #progress { height:100%; width:0; background:#c7a56b; }
+    #error { display:none; color:#f4b8a2; white-space:pre-wrap; max-width:640px; }
+    #fullscreen { position:fixed; top:10px; right:16px; padding:5px 10px; border:1px solid #e7d4a9;
+      color:#182628; background:#c7a56b; font:13px system-ui,sans-serif; cursor:pointer; z-index:5; }
+  </style>
+</head>
+<body>
+  <main id="player">
+    <canvas id="unity-canvas" width="1280" height="720" tabindex="0" aria-label="こちら、電話交換局 ゲーム画面"></canvas>
+    <div id="loading" role="status">
+      <div id="loading-text">交換局の準備をしています…</div>
+      <div id="track"><div id="progress"></div></div>
+      <div id="error"></div>
+    </div>
+  </main>
+  <button id="fullscreen" type="button" title="町と文字を大きく表示">全画面</button>
+  <script>
+    const canvas = document.querySelector('#unity-canvas');
+    const loading = document.querySelector('#loading');
+    const fullscreen = document.querySelector('#fullscreen');
+    fullscreen.addEventListener('click', async () => {
+      try {
+        if (document.fullscreenElement) await document.exitFullscreen();
+        else await document.documentElement.requestFullscreen();
+      } catch {
+        fullscreen.textContent = 'ウィンドウを広げて遊んでください';
+      }
+    });
+    document.addEventListener('fullscreenchange', () => {
+      fullscreen.textContent = document.fullscreenElement ? '全画面を解除' : '全画面';
+    });
+    const reportError = (message) => {
+      loading.style.display = 'grid';
+      document.querySelector('#loading-text').textContent = '起動できませんでした';
+      document.querySelector('#error').style.display = 'block';
+      document.querySelector('#error').textContent = message;
+      console.error(message);
+    };
+    const config = {
+      dataUrl: 'Build/467d2adaebbe63fa02a579c9dced4ad6.data.unityweb',
+      frameworkUrl: 'Build/34b892e3c373151d00efa0d17969666a.framework.js.unityweb',
+      codeUrl: 'Build/af573b1dd7dac04d31ffe87e66745804.wasm.unityweb',
+      streamingAssetsUrl: 'StreamingAssets',
+      companyName: 'sny0',
+      productName: 'Retro',
+      productVersion: '1.0',
+      autoSyncPersistentDataPath: true,
+      devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2),
+      showBanner: (message, type) => {
+        if (type === 'error') reportError(message);
+        else console.warn(message);
+      }
+    };
+    const script = document.createElement('script');
+    script.src = 'Build/5766d988838d89b6a32e2ee60b229ddd.loader.js';
+    script.onerror = () => reportError('ゲームのファイルを読み込めませんでした。');
+    script.onload = () => createUnityInstance(canvas, config, progress => {
+      document.querySelector('#progress').style.width = `${progress * 100}%`;
+    }).then(instance => {
+      window.unityInstance = instance;
+      const pauseOnBlur = () => {
+        if (window.retroFocusReceiver) instance.SendMessage(window.retroFocusReceiver, 'OnBrowserBlur');
+      };
+      window.addEventListener('blur', pauseOnBlur);
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) pauseOnBlur();
+      });
+      loading.style.display = 'none';
+      canvas.focus();
+    }).catch(reportError);
+    document.body.appendChild(script);
+  </script>
+</body>
+</html>
