@@ -15,6 +15,8 @@
     #track { height:5px; width:min(360px,70vw); background:#354543; }
     #progress { height:100%; width:0; background:#c7a56b; }
     #error { display:none; color:#f4b8a2; white-space:pre-wrap; max-width:640px; }
+    #fullscreen { position:fixed; top:10px; right:16px; padding:5px 10px; border:1px solid #e7d4a9;
+      color:#182628; background:#c7a56b; font:13px system-ui,sans-serif; cursor:pointer; z-index:5; }
   </style>
 </head>
 <body>
@@ -26,9 +28,22 @@
       <div id="error"></div>
     </div>
   </main>
+  <button id="fullscreen" type="button" title="町と文字を大きく表示">全画面</button>
   <script>
     const canvas = document.querySelector('#unity-canvas');
     const loading = document.querySelector('#loading');
+    const fullscreen = document.querySelector('#fullscreen');
+    fullscreen.addEventListener('click', async () => {
+      try {
+        if (document.fullscreenElement) await document.exitFullscreen();
+        else await document.documentElement.requestFullscreen();
+      } catch {
+        fullscreen.textContent = 'ウィンドウを広げて遊んでください';
+      }
+    });
+    document.addEventListener('fullscreenchange', () => {
+      fullscreen.textContent = document.fullscreenElement ? '全画面を解除' : '全画面';
+    });
     const reportError = (message) => {
       loading.style.display = 'grid';
       document.querySelector('#loading-text').textContent = '起動できませんでした';
@@ -37,9 +52,9 @@
       console.error(message);
     };
     const config = {
-      dataUrl: 'Build/Web.data.unityweb',
-      frameworkUrl: 'Build/Web.framework.js.unityweb',
-      codeUrl: 'Build/Web.wasm.unityweb',
+      dataUrl: 'Build/d8d5cdedddcb2a99506a3b761a7a9e9b.data.unityweb',
+      frameworkUrl: 'Build/55895d652f115d8f19b67817206db5d8.framework.js.unityweb',
+      codeUrl: 'Build/96a7262c230438c43209fcf35d119bce.wasm.unityweb',
       streamingAssetsUrl: 'StreamingAssets',
       companyName: 'sny0',
       productName: 'Retro',
@@ -52,7 +67,7 @@
       }
     };
     const script = document.createElement('script');
-    script.src = 'Build/Web.loader.js';
+    script.src = 'Build/f574899033fa3d05b64d24e22ef35385.loader.js';
     script.onerror = () => reportError('ゲームのファイルを読み込めませんでした。');
     script.onload = () => createUnityInstance(canvas, config, progress => {
       document.querySelector('#progress').style.width = `${progress * 100}%`;
