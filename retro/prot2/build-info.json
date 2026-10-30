@@ -1,14 +1,14 @@
 {
   "variant": "prot2",
-  "sourceRevision": "2aa7610362d5752cfcf349e5a5451f44746e97d2",
+  "sourceRevision": "9a8036a1aa2c20d244a81a4199c666199e4d4b27",
   "unityVersion": "6000.3.27f1",
-  "builtAt": "2026-10-29T18:00:31.928Z",
+  "builtAt": "2026-10-30T00:17:28.791Z",
   "files": {
-    "Build/34b892e3c373151d00efa0d17969666a.framework.js.unityweb": "a1b9f68b6113fcaa77dadfe58c1c4898fd19c3d59897038099d2ac1b407c8ebc",
-    "Build/83badd870471246bdc89a807ff1203f2.wasm.unityweb": "d5104caf2eb69861e5eb88e17d0e8b4b51d4695658a8a33dd314d0e6550f7827",
-    "Build/ad8da3820dc4dbfd82645b9812f861f9.loader.js": "35fe250eddf3213faaa007fecbc6e6f8177a4aace47a801ca3998d2034e8f61e",
-    "Build/cdafc57f6375000c7cb25151b5e55c9c.data.unityweb": "0c434a45ce5b0d0640c8ed0581b7d7720a0a14e551134964569b8c0b11ce2725",
-    "index.html": "2ea4a6d62871afce95a2488d4f152a5a746bc0facdd39abfc05eaab34226deaf",
+    "Build/4fafae9f72d431416c30e8411c00a6a0.wasm.unityweb": "005e72cde5ee3e34d37b8c381c27437e070f8d9a7a746840a5bf60c29ba3b09b",
+    "Build/5723be7c926c63faf1299a50eda8ddbe.data.unityweb": "30afde460921544ed811eb5fdb0ea8d3ac567b339d0e8eee0ea40e7cd2962293",
+    "Build/756b07e691002ae98b9ba8c9a7a30252.framework.js.unityweb": "f4632df8dcd43f708061a1789e57525ab804480fb113ff9afb407df7d5d860ed",
+    "Build/8e5efe2a433f2df820dcf487e6cfcda8.loader.js": "140adbdd6078f63f93e0ffb6ecd27217fc7cfa314689ce6f36074c362c33070c",
+    "index.html": "65c921ec8039bc3d0436dbfe11cbe64c389eae274d38962ba78430a56739bd0b",
     "ThirdPartyNotices.txt": "17d4b8d96d8eca90a097cc1344394313f1253267b5811fb69bed52548857f90f"
   }
 }
