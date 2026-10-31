@@ -1,14 +1,18 @@
 {
   "variant": "prot2",
-  "sourceRevision": "9a8036a1aa2c20d244a81a4199c666199e4d4b27",
+  "sourceRevision": null,
+  "sourceBaseRevision": "0b04510843c3532d6c0100c9d8f9c47790f49404",
+  "sourceWorkingTreeDirty": true,
+  "sourceCommitPending": true,
+  "sourceSnapshotSha256": "5566fbb30f4e541640f43861876c59686bd4a3617a7a2df9ee0bf537c735f699",
   "unityVersion": "6000.3.27f1",
-  "builtAt": "2026-10-30T00:17:28.791Z",
+  "builtAt": "2026-10-31T01:09:22.053Z",
   "files": {
-    "Build/4fafae9f72d431416c30e8411c00a6a0.wasm.unityweb": "005e72cde5ee3e34d37b8c381c27437e070f8d9a7a746840a5bf60c29ba3b09b",
-    "Build/5723be7c926c63faf1299a50eda8ddbe.data.unityweb": "30afde460921544ed811eb5fdb0ea8d3ac567b339d0e8eee0ea40e7cd2962293",
-    "Build/756b07e691002ae98b9ba8c9a7a30252.framework.js.unityweb": "f4632df8dcd43f708061a1789e57525ab804480fb113ff9afb407df7d5d860ed",
-    "Build/8e5efe2a433f2df820dcf487e6cfcda8.loader.js": "140adbdd6078f63f93e0ffb6ecd27217fc7cfa314689ce6f36074c362c33070c",
-    "index.html": "65c921ec8039bc3d0436dbfe11cbe64c389eae274d38962ba78430a56739bd0b",
+    "Build/24e1485b107843aedea991c8783cf412.loader.js": "08ebad637bb0bbb441eaa275ef9bb9f953d1b114865f79132da950c682596b77",
+    "Build/61147f9123a5fb6fd53de57ef520c118.wasm.unityweb": "7fecffecf905b3e03e0b34d09f4cbe0b778285d29e3c63c56b5b92a8c28109a4",
+    "Build/ae19562a48c93681448b146739673caf.framework.js.unityweb": "ab435483d40ff754826ae3b37dfacd57d7965372328e726309129aae77c30bc4",
+    "Build/b5dc99ef0c5e04e1589465bee0c4a842.data.unityweb": "e0831fa6b51234c46c5d52a7fc904ed0aed0e109dcc0bc115749862c0cab6bda",
+    "index.html": "00f33a752d68148dec853051736c4aba00cf4a79f2bb55ecaa0c221ac75bed66",
     "ThirdPartyNotices.txt": "17d4b8d96d8eca90a097cc1344394313f1253267b5811fb69bed52548857f90f"
   }
 }
