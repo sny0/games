@@ -160,6 +160,7 @@ Please visit their website to view the complete set of their emojis and review t
 純さん — VOICEVOX:九州そら
 庄吉さん — VOICEVOX:麒ヶ島宗麟
 郵便局の局員 — VOICEVOX:四国めたん
+見知らぬ男 — VOICEVOX:剣崎雌雄
 
 VOICEVOX:波音リツ
 http://canon-voice.com/kiyaku.html
@@ -179,3 +180,5 @@ VOICEVOX:麒ヶ島宗麟
 https://www.virvoxproject.com/voicevoxの利用規約
 VOICEVOX:四国めたん
 https://zunko.jp/con_ongen_kiyaku.html
+VOICEVOX:剣崎雌雄
+https://frontier.creatia.cc/fanclubs/413/posts/4507
