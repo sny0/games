@@ -1,0 +1,16 @@
+{
+  "variant": "prot2b",
+  "sourceRevision": "7c7e3ef228b88c4f571712303f30abf6f5d5ad25",
+  "sourceWorkingTreeDirty": true,
+  "sourceSnapshotSha256": "f45f4122e265a63ecddb771b8ad30d3fdceacdfdab7da8a1b7996fe84543b5eb",
+  "unityVersion": "6000.3.27f1",
+  "builtAt": "2026-11-01T10:52:19.539Z",
+  "files": {
+    "Build/21941d003b4c275d93158bde268fbee9.framework.js.unityweb": "01fe0422861c06f84f9767fed46f19a45ac15ea171ab1a3c1a43e26442bb3794",
+    "Build/3c3e9da3620ec62e110019a9ce42a404.loader.js": "506920b8cee5f3de93e46cb31794870a0231ed50b65452474995b261d175d596",
+    "Build/7fd49b76049238abe941da6a992119a8.wasm.unityweb": "1255190b035481297ebefb870e21b6ee2e452e56794cf16c4086c5a3a8c71b96",
+    "Build/9d21a11c17abcb61befd23a858a0bd9f.data.unityweb": "b359c7aad07f70c2cc0f3301717cbaaf570ec28d1b96eb2c163dd2cad6f04fc6",
+    "index.html": "f9ffa5c705354b701dc73734948adbb21ee261d3b0fae0c889512cd334e179ca",
+    "ThirdPartyNotices.txt": "773a25680b9d196adb62c2cdefbedc02a4c20e409285542df66f61083004fe25"
+  }
+}
