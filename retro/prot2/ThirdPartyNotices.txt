@@ -150,7 +150,7 @@ This sample of beautiful emojis are provided by EmojiOne https://www.emojione.co
 
 Please visit their website to view the complete set of their emojis and review their licensing terms.
 
-着信時の声はVOICEVOXによる合成音声です。
+通話の声はVOICEVOXによる合成音声です。
 文さん — VOICEVOX:波音リツ
 ハナ — VOICEVOX:冥鳴ひまり
 タケシ — VOICEVOX:白上虎太郎

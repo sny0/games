@@ -1,18 +1,18 @@
 {
   "variant": "prot2",
   "sourceRevision": null,
-  "sourceBaseRevision": "a5d33bb51f705f051f76237d291142ae5dcd64c6",
+  "sourceBaseRevision": "46bb179a882bb57c1d5122a2e69724f92de43511",
   "sourceWorkingTreeDirty": true,
   "sourceCommitPending": true,
-  "sourceSnapshotSha256": "50da5b6779f384214e0fac5d9a6e849193466af743c084aa4a2d1b8eaf03f543",
+  "sourceSnapshotSha256": "7a9f64d3e0defccdfe43fdb89316e8d5d267b8bb0eb83d28c84ab29f4c7f820c",
   "unityVersion": "6000.3.27f1",
-  "builtAt": "2026-11-01T00:59:49.459Z",
+  "builtAt": "2026-11-01T01:31:35.091Z",
   "files": {
-    "Build/08b88e5c010ef42db38c3863fa25c285.loader.js": "42bbc2ffd60eea749d68df0d3819db348b820768f03c17ee0c7c892b8f19f555",
-    "Build/3d11b44c79bfa2f6542b62244c9ee384.framework.js.unityweb": "72f3f8e29ca72a9a0b1aad65487f2a77fc035d60a2972f7e5d842cf82dfec07a",
-    "Build/3f9ff3dda2b9d67187649af991940554.data.unityweb": "1a160c0e65cc9163e8f302a25d79aafaf553d86ef996bc86339c9fa9659cd0a6",
-    "Build/4b957c0d7e849d2d0366682379fb656c.wasm.unityweb": "8d1664c1bb46b2532a4b8a95bccaefb89ad75aabc4475ff0ef16fee1b5e50ced",
-    "index.html": "32becd70f56810ab0c48c002b09a490cdccd2975c650fc856dca6d75815f32e3",
-    "ThirdPartyNotices.txt": "4a82cffa2f4becff62d22200d2e39536193cd4e7bd63011b6be96f146aff02a8"
+    "Build/03da89ac7c2e3bc7c406ec25b364e093.data.unityweb": "37e42169e9b61d0276b5c9bb79b4fffa906bbaf542b0058631c06d16de6c821f",
+    "Build/21941d003b4c275d93158bde268fbee9.framework.js.unityweb": "e3ac4246d3e05d7cced5ce889381c24100fda6c10c4fa25e847c3b91c4907f62",
+    "Build/385e5beb5c430ea088ce49f46a6c0b34.loader.js": "251b41474faf8b3f0d167a73f41e6c100bcc644314845a78cc3b3da400cce73c",
+    "Build/dae381f21a4abcc0d4a0206036ab7140.wasm.unityweb": "3fe58af4f2d57b5367dfc68724d1a7ee383e132634740f23c49e8d81973fbb1d",
+    "index.html": "5f9147a0ded367b064b80b70398e431c939d206966ac07b70a8abbe9d1d8f1e7",
+    "ThirdPartyNotices.txt": "9a50899b6f37b8fe006275299534012073a71f05da91167884c74ae5878a055c"
   }
 }
