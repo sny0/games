@@ -149,3 +149,33 @@ TextMesh Pro default sprite assets:
 This sample of beautiful emojis are provided by EmojiOne https://www.emojione.com/
 
 Please visit their website to view the complete set of their emojis and review their licensing terms.
+
+着信時の声はVOICEVOXによる合成音声です。
+文さん — VOICEVOX:波音リツ
+ハナ — VOICEVOX:冥鳴ひまり
+タケシ — VOICEVOX:白上虎太郎
+ミユ — VOICEVOX:春日部つむぎ
+ケンタ — VOICEVOX:ずんだもん
+源さん — VOICEVOX:玄野武宏
+純さん — VOICEVOX:九州そら
+庄吉さん — VOICEVOX:麒ヶ島宗麟
+郵便局の局員 — VOICEVOX:四国めたん
+
+VOICEVOX:波音リツ
+http://canon-voice.com/kiyaku.html
+VOICEVOX:冥鳴ひまり
+https://www.meimeihimari.com/terms-of-use
+VOICEVOX:白上虎太郎
+https://www.virvoxproject.com/voicevoxの利用規約
+VOICEVOX:春日部つむぎ
+https://tsumugi-official.studio.site/rule
+VOICEVOX:ずんだもん
+https://zunko.jp/con_ongen_kiyaku.html
+VOICEVOX:玄野武宏
+https://www.virvoxproject.com/voicevoxの利用規約
+VOICEVOX:九州そら
+https://zunko.jp/con_ongen_kiyaku.html
+VOICEVOX:麒ヶ島宗麟
+https://www.virvoxproject.com/voicevoxの利用規約
+VOICEVOX:四国めたん
+https://zunko.jp/con_ongen_kiyaku.html
