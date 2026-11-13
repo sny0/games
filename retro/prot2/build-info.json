@@ -3,16 +3,14 @@
   "sourceRevision": null,
   "sourceBaseRevision": "31f6cdb84462af5f8fdd678513534bfa58185b55",
   "sourceWorkingTreeDirty": true,
-  "sourceCommitPending": true,
-  "sourceSnapshotSha256": "05a2c4311be41323eeecf450a000de6dc45686ac9c2d3414d457d39835146c12",
   "unityVersion": "6000.3.27f1",
-  "builtAt": "2026-11-06T03:58:14.724Z",
+  "builtAt": "2026-11-13T04:26:27.547Z",
   "files": {
-    "Build/21941d003b4c275d93158bde268fbee9.framework.js.unityweb": "80b003f22d9bf703a3693ce61bcf9b77a750e16fd3b9c7354e39a55279b69b8f",
-    "Build/af127241bf45575bed42e053b9114037.loader.js": "b2450bd7120dfa4c78feda1e2133c07b4704d03bdd17bff2d12d400759ecd938",
-    "Build/b298ca6cf4b3db746dd88d58de0199bc.wasm.unityweb": "fd48bc600759ec036379c0827c711066c21e2cb4493288c1ca710132f8df87e8",
-    "Build/b647cbd32fbcef1c149c0934735c5b19.data.unityweb": "c0f80541b913337f347274e0e4a6550563e5ac3c9a6b7f81cc64a164e8a16d83",
-    "index.html": "562fab0de7a0df39956d902232ac672220fcb3363355bd03aa8fbb0dac02641f",
+    "Build/20d09daa9a50bdf2094a04c58f382d3e.wasm.unityweb": "aa81e2725ec1d7775bd3ebdaedcefb9c03adc169d6fff0239c5bdb2ef25d8934",
+    "Build/21941d003b4c275d93158bde268fbee9.framework.js.unityweb": "004f4028239a6be2ff16dedfc86a6482288a711eb5a3c93de39ece5ad7cbd3c7",
+    "Build/6a75426f68a547e5b061f56e6a448bcd.data.unityweb": "2134ab8f0de9f1f9074f8938cb130b3c5b51e675265a6264c23cd9feb249e807",
+    "Build/de6a2fd9a02ef9c7971dd533c7f36736.loader.js": "d6800bc354c1a20d900ddb87017ac2795e3ecd3aee03afbf0d71718a36947d65",
+    "index.html": "a223934760773b3ab9a02f4a86c9d19582400472307e9ce5d39b6a5c104740cb",
     "ThirdPartyNotices.txt": "773a25680b9d196adb62c2cdefbedc02a4c20e409285542df66f61083004fe25"
   }
 }
